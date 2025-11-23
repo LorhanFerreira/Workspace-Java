@@ -1,0 +1,19 @@
+INDEX VERSION 1.134+C:\Users\lorha\OneDrive\Área de Trabalho\Workspace\.metadata\.plugins\org.eclipse.jdt.core
+698389514.index
+4030447823.index
+27784035.index
+1697233733.index
+1858046417.index
+3700134740.index
+1865797976.index
+4244479082.index
+1740064754.index
+1749895121.index
+1214415498.index
+4025952949.index
+1651542683.index
+3540502102.index
+1340282599.index
+174588159.index
+2398011760.index
+3861484884.index

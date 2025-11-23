@@ -1,0 +1,28 @@
+package controller;
+
+import util.Teclado;
+
+public class L53_Questao06 {
+
+	public static void main(String[] args) {
+		/*
+		 * Desenvolver um programa que apresente o valor de uma potência de uma base
+		 * qualquer elevada a um expoente qualquer, ou seja, de be , onde os valores de
+		 * b e e são fornecidos pelo usuário, sem utilizar Math.pow().
+		 */
+		
+		int p, e;
+		
+		p = Teclado.lerInt("Informe o número da potência: ");
+		e = Teclado.lerInt("Informe o número do expoente: ");
+		
+		//System.out.println(p + " Elevada ao expoente " + e + " = " + Math.pow(p, e));
+		int acumulador;
+		for (int cont = 1 ; cont <= e ; cont++) {
+			acumulador = p * e;
+			
+		}
+
+	}
+
+}

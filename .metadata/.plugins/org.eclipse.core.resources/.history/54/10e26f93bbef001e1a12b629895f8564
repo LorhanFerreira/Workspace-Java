@@ -1,0 +1,21 @@
+package controller;
+
+import util.Teclado;
+
+public class L51_Questao11 {
+
+	public static void main(String[] args) {
+		/*
+		 * ) Elaborar um programa que apresente o valor de uma potência de uma base
+		 * qualquer (Variável b) elevada a um expoente qualquer (Variável e), ou seja,
+		 * de be . (Sem usar Math.pow();)
+		 */
+		int b, e;
+		b = Teclado.lerInt("informe um número: ");
+		e = Teclado.lerInt("Informe outro número: ");
+		
+		System.out.println(b + " Elevado a " + e + " Equivale a " + (b * e));
+
+	}
+
+}

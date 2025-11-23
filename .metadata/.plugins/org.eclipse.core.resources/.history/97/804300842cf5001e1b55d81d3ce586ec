@@ -1,0 +1,29 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao10 {
+
+	public static void main(String[] args) {
+		/*
+		 * Escreva um algoritmo pergunte o número total de eleitores de um município, o número de votos brancos, nulos
+e válidos e apresente como resposta o percentual que cada um representa em relação ao total de eleitores.
+		 */
+		double eleitores, votosBrancos, votosNulos, votosValidos, brancosPercentual;
+	
+		
+		eleitores = Teclado.lerDouble("Favor, informe o número total de eleitores do seu município: ");
+		votosBrancos = Teclado.lerDouble("Favor, informe o total de votos brancos: ");
+		votosNulos = Teclado.lerDouble("Favor, informe o total de votos nulos: ");
+		votosValidos = Teclado.lerDouble("Favor, informe o total de votos válidos: ");
+		
+		brancosPercentual = votosBrancos/eleitores;
+		
+		System.out.println("O percentual de votos brancos é " + (votosBrancos*100/eleitores));
+		System.out.println("O percentual de votos válidos é " + (votosValidos*100/eleitores));
+		System.out.println("O percentual de votos nulos é " + (votosNulos*100/eleitores));
+	
+
+	}
+
+}

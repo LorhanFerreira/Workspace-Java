@@ -1,0 +1,19 @@
+package controller;
+
+public class L53_Questao05 {
+
+	public static void main(String[] args) {
+		/*
+		 * Desenvolver um programa que apresente as potências de 2, variando de 0 a 10.
+		 */
+		
+		int cont, acumulador = 1;
+		
+		for ( cont = 2 ; cont <= 10 ; cont++) {
+			acumulador = acumulador * cont;
+			System.out.println(cont*2);
+		} 
+
+	}
+
+}

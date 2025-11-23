@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LP03.2&apos; to &apos;LP03.2_ProSequencia&apos;" description="Rename resource &apos;LP03.2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/LP03.2" name="LP03.2_ProSequencia" stamp="1711293521887" updateReferences="true"/>
+</session>

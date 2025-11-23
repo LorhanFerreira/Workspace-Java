@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;controller.Q08&apos; to &apos;Questao1_A1&apos;&#x0D;&#x0A;- Original project: &apos;LP03_ProgSequencia&apos;&#x0D;&#x0A;- Original element: &apos;controller.Q08&apos;&#x0D;&#x0A;- Renamed element: &apos;controller.Questao1_A1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Q08&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;controller{Q08.java[Q08" matchStrategy="1" name="Questao1_A1" qualified="false" references="true" similarDeclarations="false" stamp="1715206547361" textual="false" version="1.0"/>
+</session>

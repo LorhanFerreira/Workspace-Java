@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Arc2D.Double"/>
+    <fullyQualifiedTypeName name="controller.Funcionario"/>
+    <fullyQualifiedTypeName name="model.Produto"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.Main"/>
+    <fullyQualifiedTypeName name="model.Funcionario"/>
+    <fullyQualifiedTypeName name="util.Teclado"/>
+    <fullyQualifiedTypeName name="model.Usuario"/>
+</qualifiedTypeNameHistroy>

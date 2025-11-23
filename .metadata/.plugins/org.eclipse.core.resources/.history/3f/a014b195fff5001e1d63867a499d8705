@@ -1,0 +1,39 @@
+package controller;
+
+import util.Teclado;
+
+public class L53_Questao14 {
+
+	public static void main(String[] args) {
+		/*
+		 * Desenvolver um programa que pergunte nome, nota1 e nota2 de cada um dos 15
+		 * alunos de uma turma. E exiba a listagem contendo nome, nota1, nota2, média e
+		 * apresente “APROVADO” se a média for maior ou igual a 5, e “REPROVADO” se a
+		 * média for menor que 5. Ao final, exibir também a média da turma
+		 */
+		
+		String nome, sit;
+		double nota1, nota2, media;
+		
+		for (int cont = 1 ; cont <=15 ; cont++) {
+			System.out.println("-- ALUNO(A) " + cont + " --");
+			nome = Teclado.lerTexto("Nome: ");
+			nota1 = Teclado.lerDouble("Nota 1: ");
+			nota2 = Teclado.lerDouble("Nota 2: ");
+			
+			media = (nota1 + nota2) / 2;
+			if (media >= 5) {
+				sit = "Aprovado(a)";
+			} else {
+				sit = "Reprovado(a)";
+			}
+			System.out.println("\nBOLETIM: " + nome);
+			System.out.println("Nota 1: " + nota1);
+			System.out.println("Nota 2: " + nota2);
+			System.out.println("media: " + media);
+			System.out.println("Situação: " + sit);
+		}
+
+	}
+
+}
